@@ -1,0 +1,5 @@
+sudo apt install fonts-dejavu
+echo -e "\U0001F600"
+gsettings set org.gnome.desktop.interface monospace-font-name 'DejaVu Sans Mono 13'
+
+Desactivarlo: gsettings set org.gnome.desktop.interface monospace-font-name 'Ubuntu Mono 13'

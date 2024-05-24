@@ -1,0 +1,23 @@
+Manual de Instalación: 
+1. Es necesario considerar que se ha hecho sobre un SSOO Linux-Ubuntu (Se recomienda ejecutar en el mismo tipo de entorno)
+2. Se debe tener instalado 'python3'
+3. Si se desea ejecutar con la herramienta 'make x.py' será necesario tener instalado make
+
+Manual de Ejecución:
+1. Primero será necesario moverse a la carpeta aplicacion 
+Para ejecutar hay dos modalidades...
+
+	(Para este modo se debe haber instalado make)
+	1.a Se debe ejecutar primero el Servidor para ponerlo en modo escucha con el comando
+		>$ make serv
+	Y luego para iniciar el cliente ejecutar:
+		>$ make cli
+	1.b Como antes se debe ejecutar el Servidor para ponerlo en modo escha con el comando
+		>$ python3 servidorrepaso.py
+	Y luego para iniciar el cliente ejecutar:
+		>$ python3 clienterepaso.py
+
+Abstraccion empleada y el dominio/estilo para establecer la comunicación:
+Se utilizo una abstraccion de clases, en la que el cliente y el servidor son clases distintas con sus atributos respectivos, como sus direcciones (IP) y puertos. 
+Para establecer una conexion se utilizaron sockets en ambos extremos de la familia/dominio AF_INET y del tipo SOCK_STREAM, que se corresponden con la conmutación de circuitos, protocolo TCP.
+

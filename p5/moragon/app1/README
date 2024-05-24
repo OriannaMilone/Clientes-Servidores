@@ -1,0 +1,13 @@
+Manual de usuario.
+
+
+Explicacion del comando nohup:
+
+- Modifica el comportamiento de la señal SIGHUP, la cual es la que termina a lo
+ hijos de la shell cuando esta se cierra.
+
+- Hace un fork, para poder desvincular al proceso de la terminal.
+
+- Redirige la entrada estandar a /dev/null
+
+- Redirige la salida estandar y de error a un archivo llamado nohup.out
