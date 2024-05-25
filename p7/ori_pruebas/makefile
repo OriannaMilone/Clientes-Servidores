@@ -1,4 +1,4 @@
 cli: 
-	python3 clienterepaso.py 
+	python3 clientechat.py $(nick) $(passwd)
 serv:
-	python3 servidorrepaso.py
+	python3 servidorchat.py
