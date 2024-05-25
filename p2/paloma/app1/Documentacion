@@ -1,0 +1,10 @@
+Instalación
+- Único requisito: python3 
+- Si se está ejecutando en una máquina windows descárgate 'make'
+- Se supone que ya se tiene git 
+
+Ejecución:
+- 'make ejec' para ejecutar el archivo original
+- 'make diagnostico' para ejecutar el archivo original sin prints, mandando la información a un archivo llamado "diagnostico.txt"
+- 'make git' comando personal para logearse en git 
+

@@ -1,0 +1,13 @@
+Manual de Usuario:
+
+Para ejecutar el cliente se debe introducir en la línea de comandos:
+'make cliente SOCKET_DIR=<<direccion_socket>>'
+
+Por ejemplo make cliente SOCKET_DIR=/tmp/socket_pr4
+
+Escribe algo y recibirá la hora (si ha ejecutado previamente el servidor)
+
+Para ejecutar el servidor se debe introducir en la línea de comandos:
+'make servidor SOCKET_DIR=<<direccion_socket>>'
+
+Por ejemplo make servidor SOCKET_DIR=/tmp/socket_pr4

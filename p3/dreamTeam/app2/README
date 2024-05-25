@@ -1,0 +1,6 @@
+Manual de usuario.
+
+Moragón:
+	Para ejecutar mi codigo copie y pegue este comando:
+	
+	'make ejecutarMoragon file=cli3_moragon.c'

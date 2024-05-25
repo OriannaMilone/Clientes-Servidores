@@ -1,0 +1,6 @@
+Para ejecutar esta aplicación se debe:
+- Instalar Python (version 3.8 o superior) 
+	<<sudo apt-get install python3>> En un linux Debian
+- Instalar Make (para ejecutar el makefile)
+	<<sud apt-get install make>> En un linux Debian
+
